@@ -25,7 +25,8 @@
     "extra": {
         "laravel" : {
             "providers" : [
-                "NehalPatel\\Chatbox\\Providers\\ChatboxServiceProvider"
+                "NehalPatel\\Chatbox\\Providers\\ChatboxServiceProvider",
+                "NehalPatel\\Chatbox\\Providers\\RouteServiceProvider"
             ],
             "aliases": {
                 "Chatbox" : "NehalPatel\\Chatbox\\Facades\\Chatbox"
