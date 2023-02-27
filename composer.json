@@ -1,0 +1,35 @@
+{
+    "name": "nehal-patel/chatbox",
+    "description": "Laravel Package for chatbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nehal Patel",
+            "email": "iamnehalpatel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NehalPatel\\Chatbox\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NehalPatel\\Chatbox\\Tests\\" : "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "NehalPatel\\Chatbox\\Providers\\ChatboxServiceProvider"
+            ],
+            "aliases": {
+                "Chatbox" : "NehalPatel\\Chatbox\\Facades\\Chatbox"
+            }
+        }
+    }
+}
